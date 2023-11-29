@@ -1,0 +1,73 @@
+body{
+    background-color: #89B9AD !important;
+}
+
+.initialInfo {
+    text-align: center;
+}
+
+h1 {
+    margin-top  : 10vh;
+    color       : #BBE1FA;
+}
+
+
+.card {
+    background-color: #EEF296!important;
+    color           : #BBE1FA;
+}
+
+.card-header {
+    background-color: #FF8F8F  !important;
+    text-align      : center;
+    font-size       : larger;
+    font-weight     : bold;
+}
+
+.card-img-top {
+    display     : flex;
+    align-items : center;
+    padding     : 5%;
+    height      : 40vh;
+}
+
+.card-text {
+    text-align  : center;
+    font-weight : 500;
+}
+
+.text-center {
+    margin-bottom: 2vh;
+}
+
+button{
+    background-color: #0F4C75 !important;
+    color           : white !important;
+}
+
+.weather {
+    color: #2B2A4C;
+}
+
+/* Loader CSS */
+#loaderContainter {
+    position: relative;
+    height  : 100%;
+    width   : 100%;
+}
+
+.loader {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    height: 20vh;
+}
+
+@media screen and (min-width: 768px) and (min-height: 1024px) {
+    .card-img-top {
+        height  : 20vh;
+    }
+}
